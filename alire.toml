@@ -1,0 +1,11 @@
+name = "scserver"
+description = "Shiny new project"
+version = "0.1.0-dev"
+
+authors = ["Third"]
+maintainers = ["Third <third@third.net>"]
+maintainers-logins = ["TheReal3rd"]
+
+executables = ["scserver"]
+[[depends-on]]
+aws = "^23.0.0"
