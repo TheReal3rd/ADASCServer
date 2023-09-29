@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+p {
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+input {
+    color: white;
+}
+
+form {
+    color: black;
+}
+
+#inputButton {
+    color: black;
+}
