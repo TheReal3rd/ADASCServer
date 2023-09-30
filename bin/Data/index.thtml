@@ -14,15 +14,19 @@
         <link rel="icon" type="image/x-icon" href="favicon.ico">
     </header>
     <body>
-        <p>Hello Test</p>
+        <div>
+            <h1>ADA Chat Server</h1>
 
-        <form action="/post">
-            <label for="uname">Username:</label><br>
-            <input type="text" id="uname" name="uname" value="Anon"><br>
-            <label for="message">Message:</label><br>
-            <input type="text" id="message" name="message" value=""><br><br>
-            <input id="inputButton" type="submit" value="Submit">
-        </form> 
+            <form action="/post">
+                <label for="uname">Username</label><br>
+                <input type="text" id="uname" name="uname" value="Anon"><br>
+                <label for="message">Message</label><br>
+                <input type="text" id="message" name="message" value=""><br><br>
+                <input id="inputButton" type="submit" value="Submit">
+            </form> 
+
+            @_MESSAGESFORMAT_@
+        </div>
     </body>
     <footer>
         <!---TODO add server info here and other info.-->

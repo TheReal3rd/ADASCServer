@@ -10,5 +10,4 @@
 <p align="center"> <b> TODO: </b> </p>
 <p> 1. Finish the html. </p>
 <p> 2. Filter user inputs. </p>
-<p> 3. Add Ajax. </p>
-<p> 4. Fix any issue i run into. </p>
+<p> 3. Fix any issue i run into. </p>
